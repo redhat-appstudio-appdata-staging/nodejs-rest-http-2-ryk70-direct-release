@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nodejs-rest-http-annf
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/bgriggs-tenant/nodejs-rest-http-2/nodejs-rest-http-annf@sha256:1706073cd092b0e04a96713bb355664bb28383418bc49aa1bc9fb954f3538255
+        name: my-nodejs
+        resources: {}
+status: {}
