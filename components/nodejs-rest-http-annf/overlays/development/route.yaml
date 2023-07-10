@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: nodejs-rest-http-annf
     app.kubernetes.io/part-of: nodejs-rest-http-2
-  name: nodejs-rest-http-annfznfz
+  name: nodejs-rest-http-annflgps
 spec:
   path: /
   port:
