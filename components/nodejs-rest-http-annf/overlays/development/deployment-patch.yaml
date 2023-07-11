@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: nodejs-rest-http-annf
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
